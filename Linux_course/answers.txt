@@ -126,7 +126,7 @@ by typing a command ls-l and recognising directories by leter 'd' in front which
     QUESTION 13
 -------------------
 
-A) 
+A) rm -i
 
 B) rm -f
       
