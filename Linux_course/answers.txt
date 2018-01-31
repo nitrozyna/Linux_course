@@ -114,7 +114,7 @@ C)wc -l
 
 A)anyone can read, write and execute the file
   
-B)chmod go-w-x 
+B)chmod 755 -rwx 
     
 -------------------
     QUESTION 12
