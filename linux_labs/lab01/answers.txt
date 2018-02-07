@@ -1,0 +1,141 @@
+--------------------------------------------------------------------------------
+    LAB 01                               An introduction to the command line    
+--------------------------------------------------------------------------------
+
+    Answer all questions for Lab01 in this file.
+
+--------------------------------------------------------------------------------
+    QUESTIONS - Files and Directories
+--------------------------------------------------------------------------------
+
+------------------
+    QUESTION 1
+------------------
+experiments:
+exp1
+
+experiments/exp1:
+5s  data  docs	results
+
+experiments/exp1/5s:
+15.data  25.data  35.data  45.data  50.data  5.data
+
+experiments/exp1/data:
+10.data  13.data  16.data  19.data  21.data  24.data  27.data  2.data	32.data  35.data  38.data  40.data  43.data  46.data  49.data  5.data  8.data
+11.data  14.data  17.data  1.data   22.data  25.data  28.data  30.data	33.data  36.data  39.data  41.data  44.data  47.data  4.data   6.data  9.data
+12.data  15.data  18.data  20.data  23.data  26.data  29.data  31.data	34.data  37.data  3.data   42.data  45.data  48.data  50.data  7.data
+
+experiments/exp1/docs:
+
+experiments/exp1/results:
+
+
+------------------
+    QUESTION 2 
+------------------
+
+cp -R experiment experiments/exp1
+  
+------------------
+    QUESTION 3
+------------------
+
+The reason is due to the fact the directory was not empty, therefore we needed to force remove it to account for the files inside it. 
+    
+------------------
+    QUESTION 4
+------------------
+
+rm -rf experiment
+
+------------------
+    QUESTION 5
+------------------
+
+A)-r stads for reverse which means to display the results in reverse order while sorting
+-R stands for recursive which means it lists subdirectories recursively
+
+B)-a stands for --a and lists all the files without ignoring entries starting with .
+
+C)it starts with a "."
+
+D).PhysicsIsFun
+    
+------------------
+    QUESTION 6
+------------------
+
+A). refers to iteslf and  .. refers to a directory above 
+
+
+B)ls -A
+   
+------------------
+    QUESTION 7 
+------------------
+
+A)ls -S 
+    
+B)ls -t 
+  
+-------------------
+    QUESTION 8 
+-------------------
+
+A)cd .. and again cd ..
+
+B)cd ~/experiments
+    
+-------------------
+    QUESTION 9 
+-------------------
+    
+A)less -N
+    
+B)exit 1
+    
+-------------------
+    QUESTION 10
+-------------------
+
+A)head displays first 10 lines and tail displays last 10 lines
+
+B)head -n5
+
+C)wc -l
+ 
+--------------------------------------------------------------------------------
+    QUESTIONS - File Permissions
+--------------------------------------------------------------------------------
+
+-------------------
+    QUESTION 11
+-------------------
+
+A)anyone can read, write and execute the file
+  
+B)chmod 755 -rwx 
+    
+-------------------
+    QUESTION 12
+-------------------
+
+by typing a command ls-l and recognising directories by leter 'd' in front which files do not have
+    
+-------------------
+    QUESTION 13
+-------------------
+
+A) rm -i
+
+B) rm -f
+      
+-------------------
+    QUESTION 14
+-------------------
+
+Sssshhh, it's a secret :)
+
+--------------------------------------------------------------------------------
+    FINISHED LAB 01                                             MARKS: XX/XX    
+--------------------------------------------------------------------------------
