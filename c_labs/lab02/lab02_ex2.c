@@ -1,3 +1,4 @@
+// Lab02 exercise 2: Malgorzata Kurkiewicz, 2145411k
 #include <stdio.h>
 
 int main(void){
@@ -14,7 +15,7 @@ int main(void){
   }
 
   if (bottles==1){
-    printf("%d Green Bottle, sitting on the wall\n%d Green Bottle, sitting on the wall\nand if 1 Green Bottle should accidentally fall...\n...there'll be no green Bottles,sitting on the wall.",1,1);
+    printf("%d Green Bottle, sitting on the wall\n%d Green Bottle, sitting on the wall\nand if 1 Green Bottle should accidentally fall...\n...there'll be no green Bottles,sitting on the wall.\n",1,1);
   }
   return 0;
 }
