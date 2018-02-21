@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-    LAB 02                                       Advanced Command Line Usage
+    LAB 02  Malgorzata Kurkiewicz 2145411k           Advanced Command Line Usage
 --------------------------------------------------------------------------------
 
     Answer all questions for Lab02 in this file.
