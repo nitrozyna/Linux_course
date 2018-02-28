@@ -2,6 +2,7 @@
 
 # This function checks if the given parameter is a file or a directory and if not
 # it mentions that it does not exist.
+# Created by Malgorzata Kurkiewicz, 2145411k
 
 file_or_dir(){
 

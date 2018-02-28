@@ -2,13 +2,14 @@
 
 # Putting it all together.
 # Make sure data is present in the same directory as the Task5.sh script!
+# Created by Malgorzata Kurkiewicz, 2145411k
 
 # check if the number of parameters is less than one and exit when true
 if [  "$#" -lt 1 ];then
 	echo "Too few parameters, exiting."
 	exit 1
 else
-# checking if each argument is a file, if not exit the program
+# checking if each argument is a file, if not, exit the program
 	for var in "$@"
 	do
 		if [ ! -e $var ];then

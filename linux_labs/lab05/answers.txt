@@ -1,0 +1,110 @@
+--------------------------------------------------------------------------------
+    LAB 05 										GNU Make and Regular Expressions
+--------------------------------------------------------------------------------
+
+    Answer all questions for Lab05 in this file. Questions or tasks which
+    require you to edit another file have the name of the file already
+    entered for you.
+
+--------------------------------------------------------------------------------
+    QUESTIONS
+--------------------------------------------------------------------------------
+
+------------------
+    QUESTION 1
+------------------
+
+A) First I would navigate to my home directory using cd ~/ and then "git clone
+
+https://bitbucket.org/glaphysp2t/lab5-example". If I was creating a new git
+
+repository in a given directory, I would use "git init.".
+
+B) "git log --pretty=oneline". Message associated with "2a65f62" is the following:
+
+"A simple program that prints out an ASCII histogram based on a test set of integer
+
+data."
+
+C) The program creates a histogram.
+
+D) git status gives us information about our current brunch. It says "On branch"
+
+master". Your branch is up-to-date with 'origin/master'. And the "Changes not staged"
+
+for commit:" - "modified: README.md".
+
+E) First we need to do "git add ." and then git commit -m "". By doing it on my
+
+personal computer, the result of "git log" looks as follows:
+
+commit 3d5f1a334ba2ef092ca86a123c30f2f387e7785e
+Author: nitrozyna <kurkiewicz.margaret@gmail.com>
+Date:   Wed Feb 28 15:52:15 2018 +0000
+
+    Exercise 1 e.
+
+F) Creating a new branch and switching to this branch at the same time can be done by
+
+"git checkout -b myfeature". If we want to just create it, we can use
+
+"git branch myfeature".
+
+G) We can change into this branch by "git checkout myfeature". The output of
+
+"git branch--list" is the following:
+
+master
+* myfeature
+
+
+H) git log outputs the following:
+
+commit 529b81daf05c8d8964fc80b736718fb577834e95
+Author: nitrozyna <kurkiewicz.margaret@gmail.com>
+Date:   Wed Feb 28 16:04:44 2018 +0000
+
+    Exercise 1 h.
+
+
+------------------
+    QUESTION 2
+------------------
+
+A) "$@" means ‘the target of the current rule’.
+
+When Make is run it will replace this variable with the target name.
+
+B) "$^" refers to ‘all the dependencies of the current rule’. When Make is run
+
+it will replace this variable with the dependencies.
+
+C) "$<" means the name of the first prerequisite. If the target got its recipe
+
+from an implicit rule, this will be the first prerequisite added by the implicit
+
+rule.
+
+D) "$?" is used to represent all of the dependencies that are newer than the target.
+
+------------------
+    QUESTION 3
+------------------
+
+A) Submit modified Makefile
+
+B) Submit modified Makefile
+
+C) Submit modified C & H files
+
+D) Submit sim.data
+
+E) Submit graph image
+
+F) The library needed in the simulation makefile was the math.h library since we
+
+needed both the pow and sqrt functions.
+
+G) Debugging symbols can be enabled with "-g" and compiler optimizations with "-O"
+
+which can be combined as "-Og".

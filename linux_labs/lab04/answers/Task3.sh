@@ -3,6 +3,7 @@
 # This function checks if a given parameter is a directory that
 # exists, if so, it moves into it. Otherwise it creates a new
 # directory.
+# Created by Malgorzata Kurkiewicz, 2145411k
 
 dir_manipulation() {
 

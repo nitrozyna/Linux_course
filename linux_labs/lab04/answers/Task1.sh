@@ -2,6 +2,8 @@
 
 # Script, which finds individual files in the current directory with a size of 0, ask
 # for confirmation, and deletes them.
+# Created by Malgorzata Kurkiewicz, 2145411k
+
 
 for file in *
 do
