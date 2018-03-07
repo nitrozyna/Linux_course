@@ -9,6 +9,7 @@
  * Program asking for a string and if the string contains any upper chatacters,
  * changes them to lower case and prints the result, otherwise prints
  * "Your string contains only lower characters.".
+ * Malgorzata Kurkiewicz, 2145411k
  */
 
 int main(void){

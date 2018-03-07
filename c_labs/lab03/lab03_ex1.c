@@ -8,7 +8,9 @@
  *
  * Create a 2D array with random data and
  * ready to be displayed in a pgm image
+ * Malgorzata Kurkiewicz, 2145411k
  */
+
 int main(void)
 {
 

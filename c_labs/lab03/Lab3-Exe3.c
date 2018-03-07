@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+/* Corrected by Malgorzata Kurkiewicz, 2145411k
+*/
 struct TwoDPoint {
 	double x, y;
 	};
@@ -19,7 +20,7 @@ int main ( void ) {
 	puts (" Please enter the x and y coordinates of the 1st point , separated by a comma .");
 
 	fgets ( input , sizeof ( input ), stdin );
-	
+
 	// changed the type of TwoDPoint to a double
 	sscanf ( input ,"%lf ,%lf", &(a.x), &(a.y));
 	puts (" Please enter the x and y coordinates of the 2nd point , separated by a comma .");
