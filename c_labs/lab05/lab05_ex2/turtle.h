@@ -77,7 +77,7 @@ void turtle_pen_up(void);
 */
 void turtle_pen_down(void);
 
-/* 
+/*
     Get the pen status (0 is "up", anything else is down)
 */
 int turtle_pen_status(void);
@@ -132,4 +132,3 @@ void turtle_cleanup(void);
 void turtle_save_png(const char *file_name);
 
 #endif
-

@@ -3,7 +3,6 @@
 /*
 * Lab 5, exercise 1. Adding a makefile to a program which displays
 * an image (lab 3, exercise 1).
-* Malgorzata Kurkiewicz, 2145411k
 */
 
 // function which takes an array and fills it with the desired image parameters
