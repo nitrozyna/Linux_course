@@ -1,0 +1,58 @@
+Linux general:
+
+chmod 777 my_app at the beginning to allow full permissions
+
+include #!/bin/bash and exit 0
+
+save and run by
+
+./filename.sh
+
+include comments by #
+
+for calling a function on a variable:
+functioname ${variable_name}
+
+
+Lab1:
+- commands sheet
+- chmod rights
+
+Lab2:
+- redirection, piping
+-managing processes
+
+Lab3:
+- file conditionals and string comparison cheatsheet
+- Task1 creates directory structure in the current directory
+- Task2 checks if any of the directories already exist. If they do, it exits with an error code and message
+- Task3 checks and reports if the current directory is the end of a branch
+- Task4 generates 100 random numbers and uses redirection to store them in a file called random
+- Task5 loops through its arguments and prints if they are a file, directory or do not exist
+- Task 6 checks for a .bak (backup) file for every .data file in the current directory
+- Task7 generates a directory with 10 files filled with 50 random numbers. The name of the directory is
+ the current time in timestamp format.
+
+Lab4:
+- Task1 finds individual files in the current directory with a size of 0, ask for confirmation, and deletes them.
+- Task2 prints the word count, using the wc command, of each line in help-read.txt.
+- Task3 This function checks if a given parameter is a directory that exists, if so, it moves into it. Otherwise it creates a new directory.
+- Task4 checks if the given parameter is a file or a directory and if not it mentions that it does not exist.
+- Task5
+
+ Include the correct interpreter directive.
+ Check the number of arguments and exit with 1 if none are supplied.
+ Loop over each argument passed to the script.
+ Check that each argument is a file, exit with 2 if it is not.
+ Write a function process which decodes a string using base64 as above and print the decoded
+string to screen.
+ For each file, call the function process you have written on the first line of the file.
+ For each file, call the function process you have written on the last line of the file.
+ At the end of the script exit with a successful status.
+ Correctly comment your code.
+
+Lab5:
+- git and makefiles
+
+Lab6:
+- debugger

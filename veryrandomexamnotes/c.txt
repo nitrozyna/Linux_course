@@ -1,0 +1,24 @@
+C labs:
+
+Lab 1:
+- calcualtor
+
+Lab 2:
+- looping (bottles)
+- command prompt arguments (squarefree)
+
+Lab3:
+- ex1 grayscale image
+- ex2: strings
+#include <strings.h>
+turning to lower case and command prompt
+
+Lab4:
+- pointers
+- command line arguments
+- functions ( main and functions combined together)
+- pgm image in functions
+
+Lab5:
+- makefiles
+- gcc compiling
